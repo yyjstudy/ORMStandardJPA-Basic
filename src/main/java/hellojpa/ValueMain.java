@@ -8,7 +8,7 @@ public class ValueMain {
         int b = 10;
 
         System.out.println("a == b: " + (a == b));
-        
+
 
         Address address1 = new Address("city", "street", "1000");
         Address address2 = new Address("city", "street", "1000");
