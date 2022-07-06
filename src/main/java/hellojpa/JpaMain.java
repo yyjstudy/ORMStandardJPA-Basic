@@ -26,7 +26,7 @@ public class JpaMain {
             Address newAddress = new Address("NewCity", address.getStreet(), address.getZipcode());
             member.setHomeAddress(newAddress);
 
-            
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
